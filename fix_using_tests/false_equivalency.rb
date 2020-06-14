@@ -1,5 +1,5 @@
 # don't forget to add: require 'pry'
-
+require 'pry'
 def prompt_user
   gets.chomp
 end
@@ -21,5 +21,5 @@ end
 def runner
   prompt_user
   selection(get_user_input)
-  binding.pry
 end
+runner
