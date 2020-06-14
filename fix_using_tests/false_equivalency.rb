@@ -1,5 +1,5 @@
 # don't forget to add: require 'pry'
-binding.pry
+
 def get_user_input
   gets.chomp
 end
