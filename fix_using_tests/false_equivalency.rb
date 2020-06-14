@@ -1,10 +1,10 @@
 # don't forget to add: require 'pry'
 
-def get_user_input
+def prompt_user
   gets.chomp
 end
 
-def prompt_user
+def get_user_input
   puts "What would you like to do?"
   puts "1.) Eat a hamburger."
   puts "2.) Eat a ham."
